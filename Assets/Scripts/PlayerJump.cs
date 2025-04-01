@@ -27,7 +27,7 @@ public class PlayerJump : MonoBehaviour
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             // ...apply upward velocity to make the player jump
-            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
         }
     }
 
