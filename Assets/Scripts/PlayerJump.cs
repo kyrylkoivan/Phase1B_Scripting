@@ -2,6 +2,8 @@ using UnityEngine;
 
 public class PlayerJump : MonoBehaviour
 {
+    private Animator anim;       // Reference to the Animator
+
     [Header("Jump Settings")]
     public float jumpForce = 7f; // Force applied when jumping
 
@@ -18,6 +20,7 @@ public class PlayerJump : MonoBehaviour
     {
         // Get and store the Rigidbody2D component attached to the player
         rb = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Called every frame (for checking input)
@@ -36,6 +39,9 @@ public class PlayerJump : MonoBehaviour
     {
         // Check if the player is touching the ground using a circle cast
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, whatIsGround);
+
+        bool isJumping = !isGrounded; // You’ll define this next
+        anim.SetBool("IsJumping", isJumping);
     }
 
     // Optional: Draw ground check gizmo in the editor for debugging
