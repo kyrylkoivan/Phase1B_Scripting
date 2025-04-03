@@ -539,6 +539,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 213ceabf1f286054b8a8f435d841bedb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickupSound: {fileID: 8300000, guid: 98f5abab183e35e4a9d33cde0e5857a6, type: 3}
   points: 1
 --- !u!58 &745221124
 CircleCollider2D:

@@ -4,6 +4,8 @@ public class PlayerController : MonoBehaviour
 {
     private Rigidbody2D rb;
     private Animator anim;
+    private AudioSource jumpAudioSource;
+
 
     [Header("Movement Settings")]
     public float moveSpeed = 5f;
@@ -22,6 +24,7 @@ public class PlayerController : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        jumpAudioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -32,6 +35,7 @@ public class PlayerController : MonoBehaviour
         if (isGrounded && Input.GetKeyDown(KeyCode.Space))
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, jumpForce);
+            jumpAudioSource.Play();
         }
 
         // ----- Animation Parameters -----
