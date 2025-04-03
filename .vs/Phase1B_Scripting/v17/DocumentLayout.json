@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30627937-9FB1-79B5-E92A-83BD3AE6E1F2}|Assembly-CSharp.csproj|C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30627937-9FB1-79B5-E92A-83BD3AE6E1F2}|Assembly-CSharp.csproj|c:\\users\\jake\\unity projects\\phase1b_scripting\\phase1b_scripting\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30627937-9FB1-79B5-E92A-83BD3AE6E1F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30627937-9FB1-79B5-E92A-83BD3AE6E1F2}|Assembly-CSharp.csproj|c:\\users\\jake\\unity projects\\phase1b_scripting\\phase1b_scripting\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30627937-9FB1-79B5-E92A-83BD3AE6E1F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +15,7 @@
       "RelativeMoniker": "D:0:0:{30627937-9FB1-79B5-E92A-83BD3AE6E1F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerjump.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30627937-9FB1-79B5-E92A-83BD3AE6E1F2}|Assembly-CSharp.csproj|c:\\users\\jake\\unity projects\\phase1b_scripting\\phase1b_scripting\\assets\\scripts\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{30627937-9FB1-79B5-E92A-83BD3AE6E1F2}|Assembly-CSharp.csproj|C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\assets\\scripts\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{30627937-9FB1-79B5-E92A-83BD3AE6E1F2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\collectible.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,15 +30,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAUwC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-02T08:36:12.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAiwCIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T08:33:43.876Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ScoreManager.cs",
               "DocumentMoniker": "C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\Assets\\Scripts\\ScoreManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ScoreManager.cs",
@@ -46,7 +76,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Collectible.cs",
               "DocumentMoniker": "C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\Assets\\Scripts\\Collectible.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Collectible.cs",
@@ -54,12 +84,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Collectible.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T08:49:04.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T08:49:04.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "PlayerJump.cs",
               "DocumentMoniker": "C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\Assets\\Scripts\\PlayerJump.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerJump.cs",
@@ -68,19 +97,6 @@
               "ViewState": "AgIAABMAAAAAAAAAAAAswDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T09:22:41.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PlayerMovement.cs",
-              "DocumentMoniker": "C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\Jake\\Unity Projects\\Phase1B_Scripting\\Phase1B_Scripting\\Assets\\Scripts\\PlayerMovement.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T08:33:43.876Z",
               "EditorCaption": ""
             }
           ]
